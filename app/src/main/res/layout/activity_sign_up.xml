@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/roundedshape"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:ignore="MissingDefaultResource">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="163dp"
+        android:layout_height="161dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/cleanuplogo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="640dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-210dp"
+        android:background="@drawable/color"
+        android:backgroundTint="#FFA8DF8E"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/color"
+
+            android:backgroundTint="#FFFFFF"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="Full Name"
+            android:inputType="text"
+            android:paddingHorizontal="24dp" />
+
+        <EditText
+            android:id="@+id/EmailAddress"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/color"
+            android:backgroundTint="#FFFFFF"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="E-Mail Address"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="24dp" />
+
+
+        <EditText
+            android:id="@+id/Password1"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/color"
+            android:backgroundTint="@color/white"
+
+            android:drawableLeft="@drawable/baseline_lock_24"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingHorizontal="24dp" />
+
+        <EditText
+            android:id="@+id/Password2"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/color"
+            android:backgroundTint="#FFFFFF"
+            android:drawableLeft="@drawable/baseline_password_24"
+            android:drawablePadding="20dp"
+            android:ems="10"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingHorizontal="24dp"
+            android:textSize="20dp"
+            tools:ignore="DuplicateIds" />
+
+        <Button
+            android:id="@+id/SignUp"
+            android:layout_width="311dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:paddingHorizontal="24dp"
+            android:text="Sign Up"
+            android:textSize="15dp" />
+
+    </LinearLayout>
+</RelativeLayout>

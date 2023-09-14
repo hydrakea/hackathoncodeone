@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "46595087651",
+    "project_id": "fir-signin-signup-8cd22",
+    "storage_bucket": "fir-signin-signup-8cd22.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46595087651:android:4e8f149c1c66e70161c096",
+        "android_client_info": {
+          "package_name": "com.example.hacktestappone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKxXNtOapeg4ar6qyLReDZXHHglHETxlk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

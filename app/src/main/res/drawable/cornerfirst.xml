@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <resources>
+
+        <color android:name="black" tools:ignore="ExtraText">#000000</color>
+        <color android:name="white">#FFFFFFFF</color>
+        <color android:name="silver">#EEEEEE</color>
+        <color android:name="peach">FDE8CD</color>
+        <color android:name="green">#A8DF8E</color>
+
+
+
+    </resources>
+
+    <corners android:radius="14dp" />
+</selector>
