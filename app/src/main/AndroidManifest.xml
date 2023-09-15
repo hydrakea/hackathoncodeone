@@ -15,6 +15,9 @@
         android:theme="@style/Theme.HackTestAppOne"
         tools:targetApi="31">
         <activity
+            android:name=".homepage"
+            android:exported="false" />
+        <activity
             android:name=".homenavigationscreen"
             android:exported="false" />
         <activity
@@ -35,6 +38,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
