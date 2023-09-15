@@ -104,25 +104,30 @@
     android:background="@drawable/roundedshape">
 
     <!-- Auto layout, variables, and unit scale are not yet supported -->
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
         android:id="@+id/android_lar"
-        android:layout_width="360dp"
+        android:layout_width="300dp"
         android:layout_height="800dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="51dp"
         android:background="#FFFFFF"
-        android:clipToOutline="true" />
+        android:clipToOutline="true">
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="58dp"
-        android:layout_marginRight="0dp"
-        android:stateListAnimator="@android:anim/accelerate_interpolator"
-        app:srcCompat="@drawable/cleanuplogo" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="false"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="116dp"
+            android:layout_marginRight="-18dp"
+            android:layout_marginBottom="300dp"
+            android:backgroundTint="#FDE8CD"
+            android:stateListAnimator="@android:anim/accelerate_interpolator"
+            app:srcCompat="@drawable/cleanuplogo" />
+    </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -188,9 +193,13 @@
             android:layout_gravity="center"
             android:layout_margin="20dp"
             android:background="@drawable/roundedshape"
-            android:backgroundTint="#E2E5E8"
+            android:backgroundTint="#00BCD4"
+            android:foregroundTint="#000000"
             android:gravity="center"
-            android:text="Login" />
+            android:text="Login"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            app:rippleColor="#000000" />
 
         <Button
             android:id="@+id/signUpNavigateBtn"

@@ -17,13 +17,11 @@
         android:text="CLEAN UP"
         android:textAlignment="textStart"
         android:textColor="#3FA210"
-        android:textSize="30dp" />
+        android:textSize="30sp" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#FDE8CD"
-        android:backgroundTint="#FDE8CD">
+        android:layout_height="match_parent">
 
         <ImageView
             android:id="@+id/imageView10"
@@ -51,7 +49,7 @@
             app:srcCompat="@drawable/weather"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="39dp"
-            tools:layout_editor_absoluteY="507dp" />
+            tools:layout_editor_absoluteY="496dp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -63,7 +61,7 @@
             android:textStyle="bold"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="6dp"
-            tools:layout_editor_absoluteY="275dp" />
+            tools:layout_editor_absoluteY="284dp" />
 
         <TextView
             android:id="@+id/textView4"
@@ -75,6 +73,14 @@
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="6dp"
             tools:layout_editor_absoluteY="480dp" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/widgets"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="-188dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
